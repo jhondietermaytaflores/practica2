@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+#contenido {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tbox{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#guardar{
+    background-color: #00ff08;
+    width: 40%;
+    padding: 8px;
+    margin-left: 25px;
+}
+#cancelar{
+    background-color: #ff0000;
+    width: 40%;
+    padding: 8px;
+    
+}
+
+#tablaAlumnos{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
